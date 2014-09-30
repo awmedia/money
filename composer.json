@@ -1,0 +1,17 @@
+{
+    "name": "aw/money",
+    "description": "Framework to handle Money, including support for currencies, mutations and exchange rates",
+    "authors": [
+        { "name": "Jerry Sietsma", "email": "email@sjerry.nl" }
+    ],
+    "version": "0.0.1",
+    "require": {
+        "php": ">=5.3.2",
+        "aw/common": "dev-master",
+        "doctrine/common": "2.5.*@dev"
+    },
+    "autoload": {
+        "psr-0": { "Aw\\Money\\": "lib/" }
+    },
+    "minimum-stability": "dev"
+}
